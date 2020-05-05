@@ -1,1 +1,1 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"><img src="https://indykoning.nl/wp-content/uploads/2020/03/Livewire.png" width="200"></p>
+<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"><img src="https://indykoning.nl/wp-content/uploads/2020/03/Livewire.png" width="150"></p>
