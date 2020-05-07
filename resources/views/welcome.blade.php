@@ -97,6 +97,11 @@
                 @livewire('hello-world-loop')
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-12">
+                @livewire('contact-list')
+            </div>
+        </div>
     </div>
 </div>
 

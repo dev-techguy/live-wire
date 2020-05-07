@@ -1,3 +1,5 @@
 <div>
-    {{-- Nothing in the world is as soft and yielding as water. --}}
+    Hello {{ $contact->name }} : {{ now() }}
+
+    <button wire:click="$refresh">Refresh</button>
 </div>

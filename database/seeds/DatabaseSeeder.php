@@ -14,6 +14,6 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         factory(User::class)->create();
-        factory(Contact::class, 50)->create();
+        factory(Contact::class, 10)->create();
     }
 }
