@@ -14,6 +14,11 @@ class ContactList extends Component
         $this->contacts = Contact::all();
     }
 
+    public function refreshChildren()
+    {
+        $this->emit('refreshChildren');
+    }
+
     public function removeItem(string $id)
     {
         Contact::query()->findOrFail($id)->delete();

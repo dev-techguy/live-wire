@@ -6,7 +6,9 @@
         <button wire:click="removeItem('{{ $contact->id }}')">REMOVE ITEM</button>
     @endforeach
 
-    <button wire:click="$refresh">Refresh</button>
-
     {{ now() }}
+
+    <div>
+        <button wire:click="refreshChildren">Refresh Children</button>
+    </div>
 </div>
