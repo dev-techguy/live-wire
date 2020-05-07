@@ -87,6 +87,16 @@
                 @livewire('hello-world')
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-12">
+                @livewire('hello-world-two',['name'=>'Test'])
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                @livewire('hello-world-loop')
+            </div>
+        </div>
     </div>
 </div>
 
